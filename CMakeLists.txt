@@ -32,6 +32,28 @@ target_link_libraries(unzcdemo /usr/local/lib/libz.a)
 add_executable(myperror chapter1/myperror.c)
 target_link_libraries(myperror /usr/local/lib/libapue.a)
 
+add_executable(mysignal chapter1/mysignal.c)
+target_link_libraries(mysignal /usr/local/lib/libapue.a)
+
+########################## chapter2 #######################
+add_executable(mypath_max chapter2/mypath_max.c)
+target_link_libraries(mypath_max /usr/local/lib/libapue.a)
+
+########################## chapter3 #######################
+add_executable(mystdio chapter3/mystdio.c)
+target_link_libraries(mystdio /usr/local/lib/libapue.a)
+add_executable(myoffsetio chapter3/myoffsetio.c)
+target_link_libraries(myoffsetio /usr/local/lib/libapue.a)
+add_executable(myfcntl chapter3/myfcntl.c)
+target_link_libraries(myfcntl /usr/local/lib/libapue.a)
+add_executable(myeffectio chapter3/myeffectio.c)
+target_link_libraries(myeffectio /usr/local/lib/libapue.a)
+add_executable(mycreateempty chapter3/mycreateempty.c)
+target_link_libraries(mycreateempty /usr/local/lib/libapue.a)
+
+########################## chapter4 #######################
+add_executable(myfiletype chapter4/myfiletype.c)
+target_link_libraries(myfiletype /usr/local/lib/libapue.a)
 
 
 
